@@ -4,7 +4,7 @@
 
 ###### cd <directory_name>
 ###### Then in command line do the following:
-`npm install`
+`npm install` (This will automatically install the dependencies for the test)
 
 ###### To run tests:
 `npm test`
