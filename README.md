@@ -2,7 +2,7 @@
 
 ## Instructions:
 
-> cd directory_name
+###### cd <directory_name>
 ###### Then in command line do the following:
 `npm install`
 
