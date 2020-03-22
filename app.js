@@ -23,7 +23,7 @@ const inputFilePath = () => readline.question(`Enter file name:`, (input) => {
 const processData = (data) => {
     const sortedData = sortData(data);
     sortedData.map(value => {
-        const result = calculation[value.type](value);
+        const result = (calculation[value.type](value)).toFixed(2);
         console.log(result);
     });
 }
